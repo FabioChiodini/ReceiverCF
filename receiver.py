@@ -4,6 +4,8 @@ import json
 
 app = Flask(__name__)
 
+#Added this k
+portk=os.environ['PORTK']
 
 @app.route('/log', methods=['POST'])
 def log():
@@ -17,4 +19,4 @@ def log():
 
 
 if __name__ == '__main__':
-    app.run(host="0.0.0.0",port=PORTK, debug=True)
+    app.run(host="0.0.0.0",port=portk, debug=True)
