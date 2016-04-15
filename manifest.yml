@@ -10,6 +10,6 @@ applications:
   #Added this K
   # command to install dependencies
   #install: "pip install -r requirements.txt"
-  #env:
-  PORT=61116
+  env:
+     PORTK: 61116
   #  LOG_PORT: 61112
