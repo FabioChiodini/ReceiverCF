@@ -1,6 +1,6 @@
 ---
 applications:
-- name: receiver-${random-word}
+- name: fabio-receivertc
   memory: 128M
   buildpack: python_buildpack
   domain: cfapps.io
