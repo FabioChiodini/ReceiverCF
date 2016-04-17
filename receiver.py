@@ -17,12 +17,12 @@ def log():
         raise(e)
     return(jsonify({'result':'ok'}))
 
-#added for display
+#added for display on CF
 @app.route('/', defaults={'path': ''})
 @app.route('/<path:path>')
 def honey(path):
-    log_request(request)
-    return jsonify({'result': 'Receiver ok'})
+    #log_request(request)
+    return jsonify({'result': ' Receiver ok'})
 #added for display end
 
 if __name__ == '__main__':
