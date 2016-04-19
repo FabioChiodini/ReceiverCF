@@ -7,4 +7,12 @@ How to deploy (example)
 cf push fabio-receivertc -m 128MB
 '''
 
-Deploy as fabio-receivertc (fabio-receivertc.cfapps.io) for demo purposes
+Deploy as fabio-receivertc (fabio-receivertc.cfapps.io) for demo purposes. 
+
+Refer to:
+
+https://github.com/FabioChiodini/HoneypotCF
+
+
+
+@FabioChiodini
