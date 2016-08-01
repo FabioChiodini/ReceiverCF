@@ -3,7 +3,7 @@ applications:
 - name: fabio-receivertc
   memory: 128M
   buildpack: python_buildpack
-  domain: cfapps.io
+  #domain: cfapps.io
   command: python receiver.py
   timeout: 20
   
