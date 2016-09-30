@@ -1,5 +1,5 @@
 # ReceiverCF
-Deploy receiver on Cloud Foundry
+Deploy receiver for project titanium Crucible on Cloud Foundry (using port 80):
 
 How to deploy (example)
 
